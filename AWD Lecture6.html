@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+   class student{
+            constructor(sname,rno,sclass,famarks){
+                this.name=sname; 
+                this.rollono=rno;
+                this.class=sclass;
+                this.famarks=famarks;
+            }
+             display(){
+                 return this.name + this.rollono + this.class + this.famarks;
+
+             }
+        }
+        let s1 =new  student("Agrim", 106," betech ",80)
+        console.log(s1.display());
+
+        let s2 =new  student("Aditya", 095," betech ",70)
+        console.log(s2.display());
+        
+        let s3 =new  student("Aadi ", 196," betech ",90)
+        console.log(s3.display());
+
+        let s4 =new  student("Akshit", 137," betech ",60)
+        console.log(s4.display());
+
+        let s5 =new  student("Aman goyal ", 150," betech ",70)
+        console.log(s5.display());
+</script>
+</html>

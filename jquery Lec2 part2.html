@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JQUERY</title>
+</head>
+<body>
+
+
+    <p id="first">Welcome 1</p>
+    <p id="second">Welcome 2</p>
+    <p class="third">Welcome 3</p>
+    <p>Welcome 4</p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+//         <Element Selector --> $('p')
+// Id Selector --> $('#test')       # is used fot id.
+// Class Selector --> $('.test')   Dot is used for class.  
+        // $(document).ready(function()){
+
+            $('p').click(function(){
+                console.log("you clicked on p", this)
+            })
+            // Id Selector
+            $('#first').click();
+        // }
+    </script>
+    <div id="learning">
+
+    </div>
+    <button id="btnl">
+        toggel now
+    </button>
+</body>
+</html>

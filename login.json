@@ -1,0 +1,54 @@
+{
+  "users":[
+      {
+          "userid":1,
+          "username":"abcd",
+          "password":"1234"
+      },
+{
+          "userid":2,
+          "username":"akshay",
+          "password":"0127"
+      },
+{
+          "userid":3,
+          "username":"amit",
+          "password":"0162"
+      },
+{
+          "userid":4,
+          "username":"anish",
+          "password":"0192"
+      },
+{
+          "userid":5,
+          "username":"Akbros",
+          "password":"2407"
+      },
+{
+          "userid":6,
+          "username":"Rohit",
+          "password":"0119"
+      },
+{
+          "userid":7,
+          "username":"by",
+          "password":"2407"
+      },
+{
+          "userid":8,
+          "username":"Aakash",
+          "password":"0005"
+      },
+{
+          "userid":9,
+          "username":"Adarsh",
+          "password":"0001"
+      },
+{
+          "userid":10,
+          "username":"Aman",
+          "password":"0148"
+      }
+  ]
+}

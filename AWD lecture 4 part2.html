@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>
+            Objects in javascript
+        </title>
+
+    </head>
+    <body>
+        <script>
+            var student={
+                fname:"Ram",
+                lname:"Kumar",
+                clas:"B.Tech-CSE",
+        disp: function() {
+            console.log(fname);
+            console.log(lname);
+            console.log(clas);
+            
+        }
+            }
+        console.log(student);
+         function add()
+{
+    var a=10;
+    var b=20;
+    var c=a+b;
+    console.log(c);
+}
+add();
+
+var student={
+    name:"Ram",
+    clas:"BE",
+    add: function()
+    {
+        var a=10;
+        var b=20;
+        var c=a+b;
+        console.log(this);
+        console.log(c);
+    }
+
+}
+console.log(student);
+
+    
+        </script>
+    </body>
+</html>
+
+    

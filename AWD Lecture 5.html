@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>
+            Objects in javascript
+        </title>
+
+    </head>
+    <body>
+        <script>
+            function student(first,last,age, eye){
+                this.fristname=first;
+                this.lastname=last;
+                this.age=age;
+                this.eyecolor=eye;
+            
+            
+                this.dispname=function(){
+                    return this.firstname + "" + this.lastname;
+            
+                }
+            }
+            const aman = new student("Aman","Singh",20, "Black")
+            const sanjeev = new student("Sanjeev ","Garg",34, "Black")
+            const suman = new student("Suman","Singh",21, "Brown")
+            const rajeev = new student("Rajeev","Verma",25, "Blue")
+            
+            console.log(aman.age);
+            console.log(rajeev.age);
+            console.log(suman.age);
+            console.log(sanjeev.age);
+            
+            
+            
+            </script>
+</body>
+</html>            

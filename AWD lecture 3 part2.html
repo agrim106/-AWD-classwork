@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+   function Student(n, a, m) {
+  var name = n;
+  var age = a;
+  var marks = m;
+  
+  var averageMarks = function() {
+    var sum = 0;
+    marks.forEach(function(m){
+      sum += m;
+    });
+    return sum/marks.length;    
+  }
+  this.printDetails = function() {
+    console.log('Name: ' + name + ' Age: ' + age + ' Average Marks: ' + averageMarks());
+  }
+}
+
+var student1 = new Student('Abhinav', 21, [70, 92, 84]);
+student1.printDetails();
+var student2 = new Student('Aman', 22, [40, 93, 94]);
+student2.printDetails();
+var student3 = new Student('Abhi', 20, [70, 60, 54]);
+student3.printDetails();
+var student4 = new Student('Abhinay', 20, [78, 99, 34]);
+student4.printDetails();
+var student5 = new Student('Abhinat', 20, [75, 92, 74]);
+student5.printDetails();
+var student6 = new Student('Agam', 23, [90, 62, 94]);
+student6.printDetails();
+var student7= new Student('Abhijit', 21, [80, 82, 64]);
+student7.printDetails();
+</script>
+<body>
+    
+</body>
+</html>
